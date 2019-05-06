@@ -5,7 +5,7 @@
   "main": "lib/ssh_pub_key_validation.js",
   "scripts": {
     "build": "coffee --bare --compile --output lib src/ssh_pub_key_validation.coffee",
-    "prepublish": "coffee --bare --compile --output lib src/ssh_pub_key_validation.coffee",
+    "prepare": "coffee --bare --compile --output lib src/ssh_pub_key_validation.coffee",
     "postpublish": "rm -rf lib",
     "test": "./node_modules/.bin/mocha"
   },
